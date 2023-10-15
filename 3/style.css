@@ -1,0 +1,40 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #8b8888;
+    color: #fff;
+    margin-top: 10px;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+}
+li:nth-child(1) a{
+    border: 2px solid rgb(231, 150, 150);
+}
+li:nth-child(2) a{
+    border: 2px dashed rgb(240, 214, 99);
+}
+li:nth-child(3) a{
+    border: 2px dotted rgb(25, 79, 226);
+}
+li:nth-child(4) a{
+    border: 2px double rgb(230, 39, 166);
+}
+li:nth-child(5) a{
+    border: 2px groove rgb(37, 240, 54);
+}
